@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/playground",
+            "program": "${workspaceFolder}/build/playground.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
