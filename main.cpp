@@ -8,6 +8,11 @@
 #include "Utilities/Traits.hpp"
 
 
+void say_hello()
+{
+    std::cout << "Hello, World!\n" << std::endl;
+}
+
 
 int main(int, char**) {
     const auto path = std::filesystem::absolute(".");
