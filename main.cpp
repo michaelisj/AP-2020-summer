@@ -13,7 +13,7 @@ int main(int, char**) {
     const auto path = std::filesystem::absolute(".");
 
     std::cout << "Current path is: " << path.string() << std::endl;
-    constexpr auto me = "Michael";
+    constexpr auto me = "Roey";
 
     char array[10];
     example::utilities::copy_string(array, me);
