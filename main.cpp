@@ -13,8 +13,9 @@ void say_hello()
     std::cout << "Hello, World!\n" << std::endl;
 }
 
-
 int main(int, char**) {
+    say_hello();
+
     const auto path = std::filesystem::absolute(".");
 
     std::cout << "Current path is: " << path.string() << std::endl;
