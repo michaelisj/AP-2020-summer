@@ -2,6 +2,11 @@
 #include <iostream>
 
 
+void say_hello()
+{
+    std::cout << "Hello, World!\n" << std::endl;
+}
+
 std::uint64_t fibonacci_number(const std::uint16_t index)
 {
     if (index == 0 || index == 1) {
@@ -12,9 +17,7 @@ std::uint64_t fibonacci_number(const std::uint16_t index)
 }
 
 int main(int, char**) {
-    std::cout << "Hello, world!\n";
-
-    std::cout << "Using an automatic build now!\n";
+    say_hello();
     std::cout << "The tenth fibonacci number is: " << fibonacci_number(10) << std::endl;
 
     return 0;
